@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
+
 /**
  * mul - that myltiplies
  * @a: - that multiplies two integers
