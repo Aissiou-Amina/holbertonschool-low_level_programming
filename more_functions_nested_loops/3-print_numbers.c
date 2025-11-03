@@ -1,10 +1,11 @@
 #include "main.h"
 
 void print_numbers(void)
-{	
+{
 	int n = 48;
-	while(n <= 57)
-	{	
+
+	while (n <= 57)
+	{
 		_putchar(n);
 		n++;
 	}
