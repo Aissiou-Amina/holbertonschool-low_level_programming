@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - prints the number of arguments passed intio it
+ * main - prints the number of arguments passed into it
  * @argc: number of command line arguments
- * @argv: array of command line arguments
- * Return: always 0
+ * @argv: array of strings (arguments)
+ *
+ * Return: Always 0
  */
 int main(int argc, char *argv[])
 {
-	(void) argv;
-	printf("%d/n", argc - 1);
-
-	return (0);
+    (void) argv;
+    printf("%d\n", argc - 1);
+    return (0);
 }
